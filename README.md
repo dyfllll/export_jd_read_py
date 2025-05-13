@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 1. 运行main.py
 2. 在弹出的网页中登录
-3. 打开书架中的一本书，将翻页方式改为**`上下翻页`**
+3. 打开书架中的一本书，将翻页方式改为**上下翻页**
 4. 在命令行中按回车，生成cookies.json
 
 ### 导出html版本
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 因为html里面图片是url链接形式，必须在线使用，所以可以把图片资源缓存在本地：
 
-1. 运行downloadHtmlAsset.py，输入1，导出所有要下载的图片到`output/download.json`，并替换html里面图片地址
+1. 运行downloadHtmlAsset.py，输入1，导出所有要下载的图片到`output/download.json`，并自动替换html里面图片地址
 2. 运行downloadHtmlAsset.py，输入2，下载所有图片到本地
 
 ### 生成PDF
