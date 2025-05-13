@@ -1,0 +1,4 @@
+selenium
+requests
+pdfkit
+PyPDF2
